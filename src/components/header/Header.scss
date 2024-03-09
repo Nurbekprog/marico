@@ -1,0 +1,110 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 46px;
+  @media (max-width: 570px) {
+    margin-top: 25px;
+  }
+  &-logo a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    & h1 {
+      width: 100%;
+      max-width: 45px;
+      font-family: Poppins;
+      font-size: 37px;
+      font-weight: 800;
+      line-height: 56px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #ffffff;
+    }
+    & img {
+      width: 100%;
+      max-width: 45px;
+    }
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    @media (max-width: 988px) {
+      display: none;
+    }
+    & .dropdown,
+    a {
+      border: none;
+      background: transparent;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0px;
+      cursor: pointer;
+      text-align: left;
+      color: #707070;
+      transition: all 0.5s;
+      &:hover {
+        color: #3c82f4;
+      }
+    }
+  }
+  &-btns {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    &-1 {
+      border: none;
+      background: transparent;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #707070;
+      transition: all 0.5s;
+      &:hover {
+        color: #3c82f4;
+      }
+      @media (max-width: 570px) {
+        display: none;
+      }
+    }
+    &-2 {
+      padding: 12px 22px;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #ffffff;
+      transition: all 0.5s;
+      border: 1px solid #000;
+      border-radius: 5px;
+      background-color: #3c82f4;
+      &:hover {
+        color: #707070;
+        background-color: transparent;
+        border-color: #707070;
+      }
+      @media (max-width: 570px) {
+        display: none;
+      }
+    }
+    & img {
+      display: none;
+    }
+  }
+}
+@media (max-width: 988px) {
+  .nav-btns img {
+    display: block;
+    padding: 7px;
+    border-radius: 50%;
+    border: 2px solid #707070;
+  }
+}
