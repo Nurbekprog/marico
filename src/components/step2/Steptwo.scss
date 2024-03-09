@@ -1,0 +1,77 @@
+.step2 {
+  padding-top: 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-head {
+    & h5 {
+      font-family: Poppins;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #3d82f2;
+    }
+    & h2 {
+      font-family: Poppins;
+      font-size: 75px;
+      font-weight: 600;
+      line-height: 112px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #ffffff;
+      @media (max-width: 1000px) {
+        font-size: 74px;
+        line-height: 103px;
+      }
+      @media (max-width: 950px) {
+        font-size: 72px;
+        line-height: 97px;
+      }
+      @media (max-width: 890px) {
+        font-size: 69px;
+        line-height: 96px;
+      }
+      @media (max-width: 840px) {
+        font-size: 64px;
+        line-height: 90px;
+      }
+      @media (max-width: 786px) {
+        font-size: 58px;
+        line-height: 75px;
+      }
+      @media (max-width: 716px) {
+        font-size: 54px;
+        line-height: 70px;
+      }
+      @media (max-width: 669px) {
+        font-size: 49px;
+        line-height: 60px;
+      }
+      @media (max-width: 617px) {
+        font-size: 44px;
+        line-height: 52px;
+      }
+    }
+    & p {
+      width: 100%;
+      max-width: 886px;
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 45px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #707070;
+      @media (max-width: 727px) {
+        font-size: 24px;
+        line-height: 37px;
+      }
+      @media (max-width: 625px) {
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+  }
+}
