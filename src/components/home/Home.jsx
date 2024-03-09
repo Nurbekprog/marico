@@ -21,7 +21,23 @@ const Home = () => {
           <p>creators have already started</p>
         </span>
       </div>
-      <div className="home-footer"></div>
+      <div className="home-footer">
+        <h2>Why Creators Love Marico</h2>
+        <div className="home-footer-list">
+          <div>
+            <h4>🙂 Reduced Anxiety</h4>
+            <p>Never worry about losing your audience.</p>
+          </div>
+          <div>
+            <h4>😃 Lower Workload</h4>
+            <p>Just share one link. We'll handle the rest.</p>
+          </div>
+          <div>
+            <h4>🥳 More Time</h4>
+            <p>Spend less time on marketing tools</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
