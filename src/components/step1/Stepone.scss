@@ -1,0 +1,121 @@
+.step1 {
+  &-head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    & h6 {
+      font-family: Poppins;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #3d82f2;
+      @media (max-width: 450px) {
+        font-size: 17px;
+      }
+    }
+    & h2 {
+      font-family: Poppins;
+      font-size: 75px;
+      font-weight: 600;
+      line-height: 112px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #ffffff;
+      @media (max-width: 1200px) {
+        font-size: 72px;
+      }
+      @media (max-width: 1150px) {
+        font-size: 69px;
+      }
+      @media (max-width: 1100px) {
+        font-size: 66px;
+      }
+      @media (max-width: 1050px) {
+        font-size: 63px;
+      }
+      @media (max-width: 1000px) {
+        font-size: 60px;
+      }
+      @media (max-width: 950px) {
+        font-size: 56px;
+      }
+      @media (max-width: 900px) {
+        font-size: 53px;
+      }
+      @media (max-width: 850px) {
+        font-size: 50px;
+      }
+      @media (max-width: 800px) {
+        font-size: 47px;
+      }
+      @media (max-width: 750px) {
+        font-size: 44px;
+        line-height: 90px;
+      }
+      @media (max-width: 700px) {
+        font-size: 41px;
+        line-height: 75px;
+      }
+      @media (max-width: 512px) {
+        font-size: 41px;
+        line-height: 50px;
+      }
+    }
+    & p {
+      width: 100%;
+      max-width: 929px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 45px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #707070;
+      @media (max-width: 500px) {
+        font-size: 21px;
+        line-height: 30px;
+      }
+      @media (max-width: 450px) {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      @media (max-width: 420px) {
+        font-size: 18px;
+        line-height: 20px;
+      }
+      @media (max-width: 380px) {
+        font-size: 15px;
+        line-height: 17px;
+      }
+    }
+    & button {
+      margin-top: 34px;
+      margin-bottom: 182px;
+      padding: 24px 38px;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #707070;
+      border-radius: 8px;
+      border: 1px solid #707070;
+      background-color: transparent;
+      transition: all 0.5s;
+      &:hover {
+        color: #ffffff;
+        background: #3d82f2;
+        border: 1px solid #3d82f2;
+      }
+      @media (max-width: 430px) {
+        padding: 15px 33px;
+        font-size: 17px;
+      }
+    }
+  }
+}
