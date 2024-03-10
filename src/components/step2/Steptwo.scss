@@ -74,4 +74,118 @@
       }
     }
   }
+  &-body {
+    display: grid;
+    margin-top: 176px;
+    grid-template-columns: 50% 50%;
+    gap: 24px;
+    @media (max-width: 921px) {
+      grid-template-columns: 1fr;
+      margin-top: 100px;
+    }
+    @media (max-width: 420px) {
+      margin-top: 60px;
+    }
+    & div {
+      width: 100%;
+      max-width: 854px;
+      padding: 34px 0 0 34px;
+      background-color: #0d0d0d;
+      @media (max-width: 1265px) {
+        max-width: 700px;
+      }
+      @media (max-width: 1120px) {
+        max-width: 600px;
+      }
+      @media (max-width: 921px) {
+        padding-bottom: 34px;
+      }
+      @media (max-width: 420px) {
+        padding: 15px;
+      }
+      & img {
+        width: 100%;
+        max-width: 926px;
+      }
+      & p {
+        margin-bottom: 40px;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #0fc65c;
+        @media (max-width: 1120px) {
+          font-size: 20px;
+        }
+      }
+      & h2 {
+        font-family: Poppins;
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 120px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #919191;
+        @media (max-width: 1380px) {
+          font-size: 74px;
+          line-height: 100px;
+        }
+        @media (max-width: 1370px) {
+          font-size: 60px;
+          line-height: 67px;
+        }
+        @media (max-width: 1362px) {
+          font-size: 40px;
+          line-height: 40px;
+        }
+      }
+      & h3 {
+        font-family: Poppins;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 93px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #ffffff;
+        @media (max-width: 1380px) {
+          font-size: 74px;
+          line-height: 100px;
+        }
+        @media (max-width: 1370px) {
+          font-size: 60px;
+          line-height: 67px;
+        }
+        @media (max-width: 1362px) {
+          font-size: 40px;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+  & button {
+    padding: 22px 87px;
+    margin-top: 50px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+    background-color: #3d82f2;
+    border: 1px solid #3d82f2;
+    border-radius: 8px;
+    transition: all 0.5s;
+    &:hover {
+      border: 1px solid #707070;
+      color: #707070;
+      background-color: transparent;
+    }
+    @media (max-width: 921px) {
+      padding: 15px 50px;
+      font-size: 18px;
+    }
+  }
 }
