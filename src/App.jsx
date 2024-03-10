@@ -6,6 +6,7 @@ import Steptwo from "./components/step2/Steptwo";
 import Stepthree from "./components/step3/Steptree";
 import Experts from "./components/experts/Experts";
 import Banner from "./components/banner/Banner";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Stepthree />
       <Experts />
       <Banner />
+      <Footer />
     </div>
   );
 };
