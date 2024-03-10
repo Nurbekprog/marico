@@ -1,0 +1,54 @@
+.banner {
+  margin-left: auto;
+  margin-right: auto;
+  & h2 {
+    padding-top: 301px;
+    padding-bottom: 288px;
+    background: "../../assets/images/bg-image.png";
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 105px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    @media (max-width: 1254px) {
+      font-size: 67px;
+      line-height: 95px;
+    }
+    @media (max-width: 1204px) {
+      font-size: 64px;
+      line-height: 88px;
+    }
+    @media (max-width: 1140px) {
+      font-size: 60px;
+      line-height: 85px;
+    }
+    @media (max-width: 830px) {
+      font-size: 55px;
+      line-height: 70px;
+    }
+    @media (max-width: 710px) {
+      font-size: 50px;
+      line-height: 55px;
+      padding-top: 250px;
+      padding-bottom: 230px;
+    }
+    @media (max-width: 640px) {
+      font-size: 45px;
+      line-height: 50px;
+      padding-top: 180px;
+      padding-bottom: 150px;
+    }
+    @media (max-width: 500px) {
+      font-size: 33px;
+      line-height: 44px;
+      padding-top: 130px;
+      padding-bottom: 80px;
+    }
+  }
+}
